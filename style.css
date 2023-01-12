@@ -400,7 +400,7 @@ span.middot {
 }
 
 .bg-color,
-.bg-color #header-wrap { background-color: #1ABC9C !important; }
+.bg-color #header-wrap { background-color: var(--themecolor, #5E8E3E) !important; }
 
 .color { color: #1ABC9C !important; }
 

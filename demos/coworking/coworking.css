@@ -3,8 +3,8 @@
 -----------------------------------------------------------------*/
 
 :root {
-	--themecolor: #267DF4;
-	--themecolorrgba: 38, 125, 244;
+	--themecolor: #5E8E3E;
+	--themecolorrgba: 94, 142, 62;
 	--font-secondary: 'Domine', serif;
 }
 
@@ -14,7 +14,7 @@
 
 .bg-theme-light,
 .section {
-	background-color: rgba(var(--themecolorrgba, 38, 125, 244), 0.05);
+	background-color: rgba(var(--themecolorrgba, 94,142,62), 0.05);
 }
 
 .menu-container > .menu-item > .menu-link {
@@ -27,7 +27,7 @@
 }
 
 .top-phone {
-	background-color: var(--themecolor, #267DF4);
+	background-color: var(--themecolor, #5E8E3E);
 	color: #FFF;
 	padding: 10px 14px;
 	border-radius: 3px;
@@ -81,7 +81,7 @@
 	display: inline-block;
 	font-size: 12px;
 	font-style: normal;
-	background-color: rgba(var(--themecolorrgba, 38, 125, 244), .1);
+	background-color: rgba(var(--themecolorrgba, 94, 142, 62), .1);
 	color: var(--themecolor, #267DF4);
 	padding: 3px 8px;
 	border-radius: 2px;
@@ -214,7 +214,7 @@
 	width: 100%;
 	height: 100%;
 	border-radius: 5px;
-	background-color: rgba(var(--themecolorrgba, 38, 125, 244), 0.8);
+	background-color: rgba(var(--themecolorrgba, 94, 142, 62), 0.8);
 }
 
 .testimonials .container::before,
@@ -225,7 +225,7 @@
 	top: -38px;
 	left: 20px;
 	font-size: 80px;
-	color: rgba(var(--themecolorrgba, 38, 125, 244), 0.2);
+	color: rgba(var(--themecolorrgba, 94, 142, 62), 0.2);
 }
 
 .testimonials .container::after {
@@ -243,7 +243,7 @@
 
 .mfp-iframe-holder .mfp-close,
 .testi-stars i {
-	background-color: var(--themecolor, #267DF4);
+	background-color: var(--themecolor, #5E8E3E);
 	font-size: 14px;
 	color: #FFF;
 	padding: 1px 5px;
@@ -267,7 +267,7 @@
 .button { transition: all .2s ease-out; }
 
 .button.button-border {
-	border-color: var(--themecolor, #267DF4);
+	border-color: var(--themecolor, #5E8E3E);
 	color: var(--themecolor, #267DF4);
 }
 
@@ -281,7 +281,7 @@
 	line-height: 81px;
 	border-radius: 50%;
 	z-index: 1;
-	background-color: var(--themecolor, #267DF4);
+	background-color: var(--themecolor, #5e8e3e);
 	text-align: center;
 	font-size: 24px;
 	color: #FFF;
