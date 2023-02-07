@@ -300,7 +300,7 @@ figure {
 
 img,
 svg {
-  vertical-align: middle;
+  vertical-align: top;
 }
 
 table {
