@@ -89,7 +89,7 @@ a.h-text-color:hover,
 .nav-tree li:hover > a,
 .nav-tree li.current > a,
 .nav-tree li.active > a {
-	color: var(--themecolor) !important;
+	color: #5E8E3E;
 }
 
 .top-cart-number::before,

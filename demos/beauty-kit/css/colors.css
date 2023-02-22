@@ -72,7 +72,7 @@ a.h-text-color:hover,
 .tagcloud a:hover,
 .nav-tree li:hover > a,
 .nav-tree li.current > a,
-.nav-tree li.active > a { color: var(--themecolor, #222E2B) !important; }
+.nav-tree li.active > a { color: var(--themecolor, #5E8E3E) !important; }
 
 .top-cart-number::before,
 #page-menu-wrap,
