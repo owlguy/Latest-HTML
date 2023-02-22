@@ -3,7 +3,7 @@
 -----------------------------------------------------------------*/
 
 :root {
-	--themecolor: #5E8E3E;
+	--themecolor: var(--themecolor #5E8E3E);
 	--themecolorrgba: 94, 142, 62;
 	--font-secondary: 'Domine', serif;
 }
