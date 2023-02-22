@@ -1,0 +1,17 @@
+:root {
+	--themecolor: #5E8E3E;
+	--themecolorrgba: 94, 142, 62;
+	--font-secondary: 'Domine', serif;
+}
+
+.text-rotater {
+    color: #5E8E3E !important;
+}
+
+.color { color: #5E8E3E !important; }
+
+.border-color { border-color: #5E8E3E !important; }
+
+
+.menu-item:hover > .menu-link, .menu-item.current > .menu-link
+{ color: #5E8E3E; }

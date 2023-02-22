@@ -23,6 +23,8 @@
 	<link rel="stylesheet" href="demos/coworking/coworking.css" type="text/css" /> <!-- Theme CSS -->
 	<!-- / -->
 
+    <link rel="stylesheet" href="demos/coworking/css/hootlabs.css" type="text/css" /> <!-- Custom CSS -->
+
 	<!-- Document Title
 	============================================= -->
 	<title>HootLabs</title>
@@ -45,8 +47,8 @@
 						<!-- Logo
 						============================================= -->
 						<div id="logo">
-							<a href="index.html" class="standard-logo" data-sticky-logo="demos/coworking/images/06_HOOTLABS_LOGO_V6_LOW-RES_72 PPI-01.jpg"><img src="demos/coworking/images/06_HOOTLABS_LOGO_V6_LOW-RES_72 PPI-01.jpg" alt="HootLabs Logo"></a>
-                            <a href="index.html" class="retina-logo" data-sticky-logo="demos/coworking/images/06_HOOTLABS_LOGO_V6_LOW-RES_72"><img src="demos/coworking/images/06_HOOTLABS_LOGO_V6_HI-RES_300 PPI-01.jpg" alt="HootLabs Logo"></a>
+							<a href="index.html" class="standard-logo" data-sticky-logo="images/hl/logo/01_HOOTLABS_LOGO_V1_LOW-RES_72 PPI-01_75.jpg"><img src="images/hl/logo/01_HOOTLABS_LOGO_V1_LOW-RES_72 PPI-01_75.jpg" alt="HootLabs Logo"></a>
+                            <a href="index.html" class="retina-logo" data-sticky-logo="images/hl/logo/01_HOOTLABS_LOGO_V1_HI-RES_300 PPI-01_75.jpg"><img src="images/hl/logo/01_HOOTLABS_LOGO_V1_HI-RES_300 PPI-01_75.jpg" alt="HootLabs Logo"></a>
 							<!-- <a href="index.html" class="retina-logo" data-sticky-logo="demos/coworking/images/logo-sticky@2x.png"><img src="demos/coworking/images/logo@2x.png" alt="Canvas Logo"></a> -->
 						</div><!-- #logo end -->
 
@@ -65,8 +67,6 @@
 							<ul class="menu-container">
 								<li class="menu-item current"><a class="menu-link" href="demo-coworking.html"><div>Home</div></a></li>
 								<li class="menu-item"><a class="menu-link" href="demo-coworking-about.html"><div>About Us</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-coworking-price.html"><div>Rates</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-coworking-single.html"><div>Single</div></a></li>
 								<li class="menu-item"><a class="menu-link" href="demo-coworking-contact.html"><div>Contact Us</div></a></li>
 							</ul>
 
@@ -89,7 +89,7 @@
 						<div class="row">
 							<div class="col-md-12 align-items-center">
 								<h2 class="display-4 fw-semibold ls--2">Power up your Shopify store's
-                                    <span class="text-rotater" data-separator="|"           data-rotate="fadeIn" data-speed="2000">
+                                    <span class="text-rotater" data-separator="|" data-rotate="fadeIn" data-speed="1500">
 									    <span class="t-rotate">
                                             revenue|analytics|presence
                                         </span>
@@ -112,7 +112,7 @@
 					</div>
 				</div>
 
-				<div class="overflow-hidden parallax d-flex align-items-center" data-bottom-top="background-position:0px 200px;" data-top-bottom="background-position:0px -400px;" style="background-image: url('demos/coworking/images/istockphoto-1222457431-1024x1024.jpg'); background-size: cover; height: 400px; width: 100%;">
+				<div class="overflow-hidden parallax d-flex align-items-center" data-bottom-top="background-position:0px 0px;" data-top-bottom="background-position:0px -800px;" style="background-image: url('demos/coworking/images/istockphoto-1222457431-1024x1024.jpg'); background-size: cover; height: 400px; width: 100%;">
 					<!-- <div class="container">
 						<div class="row">
 							<div class="col-lg-6">
@@ -170,16 +170,16 @@
 							<div class="col-md-6 pe-5">
 								<div class="heading-block mb-4 border-bottom-0">
 									<div class="before-heading">Grow</div>
-									<h2 class="nott fw-semibold">We help you thrive.</h2>
+									<h2 class="nott fw-semibold">We help your business thrive.</h2>
 								</div>
 								<div class="row">
 									<div class="col-6 col-sm-6 mb-4">
-										<div class="counter color fw-semibold"><span data-from="1" data-to="15" data-refresh-interval="2" data-speed="600"></span>+</div>
+										<div class="counter color fw-semibold"><span data-from="1" data-to="15" data-refresh-interval="2" data-speed="600"></span></div>
 										<h5 class="mt-0 fw-medium">Years Software Development Experience</h5>
 									</div>
 
 									<div class="col-6 col-sm-6 mb-4">
-										<div class="counter color fw-semibold"><span data-from="1" data-to="10" data-refresh-interval="11" data-speed="900"></span>+</div>
+										<div class="counter color fw-semibold"><span data-from="1" data-to="10" data-refresh-interval="11" data-speed="900"></span></div>
 										<h5 class="mt-0 fw-medium">Years Business Leadership Experience</h5>
 									</div>
 
@@ -200,7 +200,7 @@
 									<img src="demos/coworking/images/hl/iStock-1201699822_woman_packing_boxes_sm.jpg" alt="Woman packing boxes for her small growing eCommerce business" class="card-img-top">
 									<div class="card-body">
 										<h5 class="card-title fw-semibold color">Grow your sales</h5>
-										<p class="card-text">Whether getting started or getting stronger, we can help you grow your topline.</p>
+										<p class="card-text">We can help you boost your topline.</p>
 									</div>
 								</div>
 								<div class="card shadow-sm border-light mt-4">
@@ -228,80 +228,102 @@
 
 					<div class="row justify-content-between">
 
+                        <div class="heading-block mb-4 border-bottom-0">
+                            <div class="before-heading">How we can help</div>
+                        </div>
+
 						<!-- Feature Box
 						============================================= -->
 						<div class="col-lg-4 col-md-6 my-4">
-							<i class="icon-wifi-full color ms-0 mb-4 i-plain d-block float-none"></i>
-							<h4 class="mb-3">Fiber Optic WiFi</h4>
-							<p class="text-muted">Add any Field to your Custom Form. Canvas's inbuilt Forms Processor will handle the rest. You will never have to touch any PHP Codes.</p>
+							<!-- <i class="icon-wifi-full color ms-0 mb-4 i-plain d-block float-none"></i> -->
+                            <i class="icon-rocket1 color ms-0 mb-4 i-plain d-block float-none"></i>
+							<h4 class="mb-3">Get started</h4>
+							<p class="text-muted">Unstick yourself with a trusted guide who can ask questions and offer encouragement along the way.</p>
 						</div>
 
 						<!-- Feature Box
 						============================================= -->
 						<div class="col-lg-4 col-md-6 my-4">
-							<i class="icon-line2-cup color ms-0 mb-3 i-plain d-block float-none"></i>
-							<h4 class="mb-3">Cafeteria</h4>
-							<p class="text-muted">Add any Field to your Custom Form. Canvas's inbuilt Forms Processor will handle the rest. You will never have to touch any PHP Codes.</p>
+							<i class="icon-chess-knight color ms-0 mb-3 i-plain d-block float-none"></i>
+							<h4 class="mb-3">Create Strategy</h4>
+							<p class="text-muted"><p class="text-muted">Build a technology strategy fit for your goals.</p>
 						</div>
 
 						<!-- Feature Box
 						============================================= -->
 						<div class="col-lg-4 col-md-6 my-4">
-							<i class="icon-line2-screen-desktop color ms-0 mb-3 i-plain d-block float-none"></i>
-							<h4 class="mb-3">Flexible Desks</h4>
-							<p class="text-muted">Add any Field to your Custom Form. Canvas's inbuilt Forms Processor will handle the rest. You will never have to touch any PHP Codes.</p>
+							<i class="icon-robot color ms-0 mb-3 i-plain d-block float-none"></i>
+							<h4 class="mb-3">Automate Processes</h4>
+							<p class="text-muted">Break free from copying-and-pasting from one app to another.</p>
 						</div>
 
 						<!-- Feature Box
 						============================================= -->
 						<div class="col-lg-4 col-md-6 my-4">
-							<i class="icon-line2-lock color ms-0 mb-3 i-plain d-block float-none"></i>
-							<h4 class="mb-3">Lockers</h4>
-							<p class="text-muted">Add any Field to your Custom Form. Canvas's inbuilt Forms Processor will handle the rest. You will never have to touch any PHP Codes.</p>
+							<i class="icon-chart-pie color ms-0 mb-3 i-plain d-block float-none"></i>
+							<h4 class="mb-3">Simplify Analytics</h4>
+							<p class="text-muted">Transform analytic overwhelm into clear metrics that drive your business.</p>
 						</div>
 
 						<!-- Feature Box
 						============================================= -->
 						<div class="col-lg-4 col-md-6 my-4">
-							<i class="icon-fingerprint color ms-0 mb-3 i-plain d-block float-none"></i>
-							<h4 class="mb-3">100% Secure</h4>
-							<p class="text-muted">Add any Field to your Custom Form. Canvas's inbuilt Forms Processor will handle the rest. You will never have to touch any PHP Codes.</p>
+							<i class="icon-megaphone color ms-0 mb-3 i-plain d-block float-none"></i>
+							<h4 class="mb-3">Market Wisely</h4>
+							<p class="text-muted">Pull the spaghetti off the wall and discover what really moves the needle.</p>
 						</div>
 
 						<!-- Feature Box
 						============================================= -->
 						<div class="col-lg-4 col-md-6 my-4">
-							<i class="icon-line2-printer color ms-0 mb-3 i-plain d-block float-none"></i>
-							<h4 class="mb-3">Printers &amp; Fax</h4>
-							<p class="text-muted">Add any Field to your Custom Form. Canvas's inbuilt Forms Processor will handle the rest. You will never have to touch any PHP Codes.</p>
+							<i class="icon-cart-plus color ms-0 mb-3 i-plain d-block float-none"></i>
+							<h4 class="mb-3">Customize Store Experience</h4>
+							<p class="text-muted">Adapt out-of-the-box workflow to fit your customers' patterns.</p>
+						</div>
+
+						<!-- Feature Box
+						============================================= -->
+                        <div class="col-lg-4 col-md-6 my-4">
+							<i class="icon-people-carry color ms-0 mb-3 i-plain d-block float-none"></i>
+							<h4 class="mb-3">Vendor Management</h4>
+							<p class="text-muted">Draft the right players for your logistics, email, and marketing teams.</p>
 						</div>
 
 						<!-- Feature Box
 						============================================= -->
 						<div class="col-lg-4 col-md-6 my-4">
-							<i class="icon-couch color ms-0 mb-3 i-plain d-block float-none"></i>
-							<h4 class="mb-3">Common Area</h4>
-							<p class="text-muted">Add any Field to your Custom Form. Canvas's inbuilt Forms Processor will handle the rest. You will never have to touch any PHP Codes.</p>
+							<i class="icon-volume-up color ms-0 mb-3 i-plain d-block float-none"></i>
+							<h4 class="mb-3">Theme Development</h4>
+							<p class="text-muted">Tweak your current Shopify theme to make it sing in your voice.</p>
 						</div>
 
 						<!-- Feature Box
 						============================================= -->
 						<div class="col-lg-4 col-md-6 my-4">
-							<i class="icon-line-clock color ms-0 mb-3 i-plain d-block float-none"></i>
-							<h4 class="mb-3">24x7 Access</h4>
-							<p class="text-muted">Add any Field to your Custom Form. Canvas's inbuilt Forms Processor will handle the rest. You will never have to touch any PHP Codes.</p>
-						</div>
-
-						<!-- Feature Box
-						============================================= -->
-						<div class="col-lg-4 col-md-6 my-4">
-							<i class="icon-playstation color ms-0 mb-3 i-plain d-block float-none"></i>
-							<h4 class="mb-3">Other Activities</h4>
-							<p class="text-muted">Add any Field to your Custom Form. Canvas's inbuilt Forms Processor will handle the rest. You will never have to touch any PHP Codes.</p>
+							<i class="icon-swimmer color ms-0 mb-3 i-plain d-block float-none"></i>
+							<h4 class="mb-3">Manage Products</h4>
+							<p class="text-muted">Channel your product deluge into a swimmable stream.</p>
 						</div>
 					</div>
 				</div>
 
+                <div class="container clearfix">
+
+                    <div class="heading-block mb-4 border-bottom-0">
+                        <div class="before-heading">Who we've worked with</div>
+                    </div>
+                    
+                    <div id="oc-clients" class="owl-carousel owl-carousel-full image-carousel carousel-widget" data-margin="30" data-loop="true" data-nav="false" data-autoplay="1500" data-pagi="false" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items-lg="5" data-items-xl="5" style="padding: 20px 0;">
+                        <div class="oc-item"><a href="https://utexas.edu/"><img src="images/hl/ut.png" alt="Clients"></a></div>
+                        <div class="oc-item"><a href="https://sportclips.com/"><img src="images/hl/sportclips.png" alt="Sport Clips"></a></div>
+                        <div class="oc-item"><a href="https://smiledoctors.com/"><img src="images/hl/smiledoctors.png" alt="Clients"></a></div>
+                        <div class="oc-item"><a href="https://retailmenot.com/"><img src="images/hl/retailmenot.png" alt="Clients"></a></div>
+                        <div class="oc-item"><a href="https://texmed.org/"><img src="images/hl/texmed-logo.png" alt="Clients"></a></div>
+                        <div class="oc-item"><a href="https://wordalone.org/"><img src="images/hl/wordalone.png" alt="Clients"></a></div>
+                    </div>
+                </div>
+
+                <!--
 				<div class="section" style="padding: 80px 0">
 					<div class="container">
 						<div class="heading-block border-bottom-0 mb-0">
@@ -436,6 +458,7 @@
 					</div>
 				</div>
 
+                
 				<div class="section clearfix bg-transparent">
 					<div class="container">
 						<div class="heading-block border-bottom-0 center">
@@ -528,6 +551,7 @@
 					</div>
 
 				</div>
+                
 
 				<div class="section p-0 testimonials clearfix">
 					<div class="container" style="padding: 120px 0">
@@ -852,15 +876,16 @@
 					</div>
 
 				</div>
+                -->
 
 				<div class="section mb-0 pb-0 bg-theme-light clearfix" style="padding-top: 120px;">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-8 offset-1">
-								<div class="before-heading">Don't Hesitate to Reach out to Us</div>
+								<div class="before-heading">Reach out</div>
 									<h2 class="nott fw-semibold display-4">Want to Talk?</h2>
-								<h4 class="fw-light mb-4">Call us at <a href="tel:+(61)8-234-532-45">+(61)8-234-532-45</a></h4>
-								<a href="mailto:noreply@canvas.com" class="button button-rounded button-xlarge m-0 nott fw-semibold ls0 px-5">Email Us</a>
+								<h4 class="fw-light mb-4">Call us at <a href="tel:+(1)737-990-1294">737-990-1294</a></h4>
+								<a href="mailto:contact@hootlabs.dev" class="button button-rounded button-xlarge m-0 nott fw-semibold ls0 px-5">Email Us</a>
 							</div>
 						</div>
 					</div>
@@ -871,7 +896,7 @@
 
 		<!-- Footer
 		============================================= -->
-		<footer id="footer" class="border-0" style="background-color: #155BBC; padding-top: 80px">
+		<footer id="footer" class="border-0" style="background-color: #5E8E3E; padding-top: 10px">
 
 			<div class="container">
 
@@ -880,7 +905,7 @@
 				<div class="footer-widgets-wrap dark pb-5 clearfix">
 
 					<div class="row">
-
+                        <!-- 
 						<div class="col-lg-2 col-md-2 col-6">
 							<div class="widget clearfix">
 
@@ -894,8 +919,8 @@
 								</ul>
 
 							</div>
-						</div>
-						<div class="col-lg-2 col-md-2 col-6">
+						</div> -->
+						<!-- <div class="col-lg-2 col-md-2 col-6">
 							<div class="widget clearfix">
 
 								<h4 class="ls0 mb-4 nott text-white">Support</h4>
@@ -908,8 +933,8 @@
 								</ul>
 
 							</div>
-						</div>
-						<div class="col-lg-2 col-md-2 col-6">
+						</div> -->
+						<!-- <div class="col-lg-2 col-md-2 col-6">
 							<div class="widget clearfix">
 
 								<h4 class="ls0 mb-4 nott text-white">Trending</h4>
@@ -921,8 +946,8 @@
 								</ul>
 
 							</div>
-						</div>
-						<div class="col-lg-2 col-md-2 col-6">
+						</div> -->
+						<!-- <div class="col-lg-2 col-md-2 col-6">
 							<div class="widget clearfix">
 
 								<h4 class="ls0 mb-4 nott text-white">Get to Know us</h4>
@@ -935,20 +960,20 @@
 								</ul>
 
 							</div>
-						</div>
+						</div> -->
 
-						<div class="col-lg-4 col-md-4">
+						<!-- <div class="col-lg-4 col-md-4">
 							<div id="instagram" class="widget clearfix">
 
 								<h4 class="ls0 mb-4 nott text-white">Instagram Photos</h4>
 								<div id="instagram-photos" class="instagram-photos masonry-thumbs grid-5" data-user="blog.canvastemplate" data-count="10"></div>
 
 							</div>
-						</div>
+						</div> -->
 
-						<div class="line"></div>
+						<!-- <div class="line"></div> -->
 
-						<div class="row">
+						<!-- <div class="row">
 							<div class="col-sm-3">
 								<a href="index.html"><img src="demos/coworking/images/logo-footer.png" alt="Logo Footer" class="mb-4" height="20"></a>
 								<p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -976,7 +1001,7 @@
 									</li>
 								</ul>
 							</div>
-						</div>
+						</div> -->
 
 					</div>
 
